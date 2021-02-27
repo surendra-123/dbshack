@@ -1,5 +1,40 @@
 # Order
 
+## Development server with backend node
+
+This is project's backend was made with nodejs.
+
+### Backend done by Chandra shekar
+
+#### Created connection for mongodb using atlas
+
+#### End points to be used by front end
+
+##### main page
+
+/ - get (main page)
+
+
+###### /customer
+
+/order -(type, price, qty, stock) - post
+
+##### /admin
+
+/open -(open)- post
+
+/close -(open)- post
+
+/execute -(stock, qty, price) - post
+
+/show - (stock, from_date, to_date) - get
+
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
 
 ## Development server
